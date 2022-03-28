@@ -22,17 +22,18 @@ a, a:visited {
     border-top-left-radius: 50px;
 }
 
-.card {
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    flex-basis: 450px;
-}
-
 .pricing {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.card {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    flex-basis: 450px;
+    width: 532px;
 }
 
 .gallery {
